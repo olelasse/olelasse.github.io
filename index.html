@@ -1,31 +1,94 @@
 <!DOCTYPE html>
-<html>
-<style>
-blockquote {
-	width: 250px;
-	background-color: lightblue;
-	border-left: 4px solid darkred;
-	padding: 3px;
-	border-spacing: 5px;
-}
-cite {
-	text-color: darkblue;
-}
-p {
-	display: inline;
-}
-</style>
-<head>
-	<title>Ole Lasse's Github</title>
-</head>
-<body>
-	<h1>Ole Lasse's Github</h1>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ole Lasse's Github page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <p>
+        <svg width="215" height="80">
+          <ellipse
+            ry="30"
+            rx="30"
+            cy="35"
+            cx="35"
+            fill="SkyBlue"
+            stroke-width="5"
+            stroke="black"
+          />
+          <ellipse
+            ry="30"
+            rx="30"
+            cy="35"
+            cx="105"
+            fill="PaleGreen"
+            stroke-width="5"
+            stroke="black"
+          />
+          <ellipse
+            ry="30"
+            rx="30"
+            cy="35"
+            cx="175"
+            fill="SandyBrown"
+            stroke-width="5"
+            stroke="black"
+          />
+          <text text-anchor="middle" font-size="50" y="54" x="36" fill="black">
+            O
+          </text>
+          <text text-anchor="middle" font-size="50" y="54" x="105" fill="black">
+            L
+          </text>
 
-	<p>This page is for showing a webpage, connected to Github projects.</p>
+          <text text-anchor="middle" font-size="50" y="54" x="175" fill="black">
+            B
+          </text>
+        </svg>
+      </p>
+      <h1>Ole Lasse's Github page</h1>
+    </header>
+    <main>
+      <h2>Welcome to my GitHub stats page</h2>
 
-	<blockquote><p>Let's see how long this message is here, untill there actually is any projects.</p>
-	<cite>- Ole Lasse Bjellaas</cite></blockquote>
+      <p>
+        Here you can find some stats over my github page. More "might" come
+        later.
+      </p>
 
-	<p>Posted 5th of january 2021</p>
-</body>
+      <section>
+        <img
+          src="https://streak-stats.demolab.com?user=olelasse&theme=solarized-light&date_format=j%20M%5B%20Y%5D"
+          alt="GitHub Streak"
+        />
+        <img
+          src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=olelasse&amp;theme=solarized"
+          alt="Github Profile Summary Card"
+        />
+      </section>
+      <section>
+        <img
+          src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=olelasse&theme=solarized"
+          alt="Top Languages by Repo"
+        />
+        <img
+          src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=olelasse&theme=solarized"
+          alt="Stats Card"
+        />
+      </section>
+    </main>
+
+    <footer>
+      <p><span class="copyright">&copy;</span> 2025 Ole Lasse Bjellaas</p>
+      <p>Page is coded to view projects and stats from github.</p>
+      <p class="copy-text">
+        Images and codes to view stats are from
+        https://github-profile-summary-cards.vercel.app/ or
+        https://streak-stats.demolab.com/
+      </p>
+    </footer>
+  </body>
 </html>

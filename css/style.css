@@ -1,0 +1,82 @@
+/* #################################################################
+ * style.css
+ * This style-file is made for my github page
+ * #################################################################
+ */
+
+/* ------------------------------- Basic styles ------------------------------ */
+
+* {
+  /* Reset for margin and padding */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  background-color: var(--mainbackground);
+  color: var(--mainfont);
+
+  /* Variables for colors */
+  --mainbackground: #fefae0;
+  --mainfont: #283618;
+}
+
+header {
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--mainfont);
+  color: var(--mainbackground);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--mainfont);
+  color: var(--mainbackground);
+  bottom: 0rem;
+  margin-top: 10px;
+}
+
+/* ------------------------------- Styles for text  ------------------------------ */
+.copyright {
+  font-size: 1.3em;
+}
+
+.copy-text {
+  font-size: 1rem;
+  color: var(--mainbackground);
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  font-size: 1.8em;
+}
+
+p {
+  line-height: 1.5;
+}
